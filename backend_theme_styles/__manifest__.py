@@ -6,8 +6,7 @@
 {
     "name": "Backend Theme V11 Styles",
     "summary": "Backend Theme V11 Styles",
-    "version": "0.2",
-    "category": "Theme/Backend",
+    "version": "0.3",
     "website": "https://www.odooerpcloud.com",
     "description": """ Backend theme for Odoo Override Styles """,
     "author": "Openworx, OdooERPCloud",
