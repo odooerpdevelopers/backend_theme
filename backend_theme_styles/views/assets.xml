@@ -10,7 +10,7 @@
     <data>
 		<template id="assets_backend" name="OdooErpCloud Backend Theme" inherit_id="web.assets_backend">
 		<xpath expr=".">
-                <link rel="stylesheet" href="/backend_theme_styles/static/src/scss/style.less"/>
+                <link rel="stylesheet" href="/backend_theme_styles/static/src/less/style.less"/>
 			</xpath>
 		</template>
     </data>

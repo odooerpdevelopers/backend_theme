@@ -7,10 +7,18 @@
 @brand-secondary: #00A09D;
 
 
+body a {
+	color: @brand-secondary;
 
-.btn-primary {
-    color: #ffffff;
-    background-color: @brand-secondary;
+	&:active, &:focus, &:hover {
+		outline: none;
+	}
+}
+
+
+.btn {
+    border: none;
+    font-weight: bold;
 }
 
 .btn-default {
@@ -18,15 +26,12 @@
     background-color: transparent;
 }
 
-.btn-default .btn-primary {
+.btn-primary {
+    color: #ffffff;
     background-color: @brand-secondary;
-    text-transform: uppercase;
 }
 
-.btn-secondary {
-    color: @brand-secondary;
-    background-color: transparent;
-}
+
 
 .drawer-nav {
 	background: url('/backend_theme_styles/static/src/img/home-menu-bg.svg'),
